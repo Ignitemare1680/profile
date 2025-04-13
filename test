@@ -1,0 +1,116 @@
+bad profile XD
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ignitemare</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      color: white;
+    }
+
+    .banner {
+      width: 100%;
+      height: 200px; /* controls how much of the banner is shown */
+      overflow: hidden;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+
+    .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 40px;
+      margin-top: -48px; /* pull profile up slightly like YouTube does */
+    }
+
+    .profile img {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      border: 4px solid #0f0f0f;
+      background-color: #0f0f0f;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .info h1 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .info span {
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .subscribe-btn {
+      margin-left: auto;
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 9999px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      text-decoration: none;
+    }
+
+    .subscribe-btn:hover {
+      background-color: #e60000;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 40px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner">
+    <img src="ignite.png" alt="Banner" />
+  </div>
+
+  <div class="profile">
+    <img src="pfp.png" alt="Profile Picture" />
+    <div class="info">
+      <h1>Ignitemare</h1>
+      <span>@ignitemare1680 • 2025</span>
+    </div>
+    <a href="https://www.youtube.com/@Ignitemare1680?sub_confirmation=1" class="subscribe-btn">Subscribe</a>
+  </div>
+
+  <div class="footer">
+    © 2025 Ignitemare. Inspired by the YouTube layout.
+  </div>
+
+</body>
+</html>
