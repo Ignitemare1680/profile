@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ignitemare</title>
   <style>
     body {
       margin: 0;
       font-family: Roboto, Arial, sans-serif;
-      background: #0f0f0f; /* YouTube gray */
+      background: #0f0f0f; /* YouTube dark gray */
       color: #f1f1f1;       /* YouTube white */
     }
 
     .banner {
       position: relative;
       width: 100%;
-      height: auto;
+      height: 200px;
+      overflow: hidden;
+      background: #000;
     }
 
     .banner img {
       width: 100%;
-      height: auto;
-      border-bottom: 1px solid #333;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     .channel-info {
@@ -63,18 +66,18 @@
       display: inline-block;
       margin: 10px;
       padding: 10px 20px;
-      background: #272727;
+      background: #cc0000;
       border: none;
       border-radius: 18px;
       text-decoration: none;
-      color: #f1f1f1;
+      color: #fff;
       font-size: 14px;
       font-weight: 500;
       transition: background 0.3s, transform 0.2s;
     }
 
     .link-card:hover {
-      background: #3e3e3e;
+      background: #e60000;
       transform: scale(1.03);
     }
 
@@ -102,13 +105,11 @@
   </div>
 
   <section class="links">
-    <a class="link-card" href="https://www.youtube.com/@ignitemare1680" target="_blank">YouTube</a>
-    <a class="link-card" href="#" target="_blank">Subscribe</a>
-    <a class="link-card" href="#" target="_blank">About</a>
+    <a class="link-card" href="https://www.youtube.com/@Ignitemare1680?sub_confirmation=1" target="_blank">Subscribe</a>
   </section>
 
   <footer>
-    &copy; 2025 Ignitemare. This is a fan-made layout inspired by YouTube.
+    &copy; 2025 Ignitemare. Inspired by the YouTube layout.
   </footer>
 
 </body>
