@@ -7,65 +7,109 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Roboto, Arial, sans-serif;
       background: #0f0f0f; /* YouTube gray */
-      color: #f1f1f1; /* YouTube white */
-      text-align: center;
+      color: #f1f1f1;       /* YouTube white */
     }
-    header {
-      padding: 20px;
-    }
-    header img {
+
+    .banner {
+      position: relative;
       width: 100%;
-      max-width: 800px;
       height: auto;
-      border-radius: 20px;
-      box-shadow: 0 0 30px rgba(255, 77, 0, 0.4);
     }
-    h1 {
-      font-size: 2.5em;
-      margin-top: 20px;
-      color: #ff4d00;
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #333;
     }
+
+    .channel-info {
+      display: flex;
+      align-items: center;
+      margin-top: -60px;
+      padding: 0 24px;
+    }
+
+    .channel-info img.profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid #0f0f0f;
+      background: #0f0f0f;
+    }
+
+    .channel-meta {
+      margin-left: 20px;
+    }
+
+    .channel-meta h1 {
+      font-size: 24px;
+      margin: 0;
+      color: #f1f1f1;
+    }
+
+    .channel-meta .subtext {
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
     .links {
-      margin-top: 30px;
+      margin: 30px 24px;
     }
+
     .link-card {
       display: inline-block;
       margin: 10px;
-      padding: 15px 30px;
-      background: #1a1a1a;
-      border: 2px solid #ff4d00;
-      border-radius: 10px;
+      padding: 10px 20px;
+      background: #272727;
+      border: none;
+      border-radius: 18px;
       text-decoration: none;
       color: #f1f1f1;
-      font-size: 1.2em;
+      font-size: 14px;
+      font-weight: 500;
       transition: background 0.3s, transform 0.2s;
     }
+
     .link-card:hover {
-      background: #ff4d00;
-      color: #0f0f0f;
-      transform: scale(1.05);
+      background: #3e3e3e;
+      transform: scale(1.03);
     }
+
     footer {
-      margin-top: 50px;
-      font-size: 0.9em;
+      margin-top: 60px;
+      text-align: center;
+      font-size: 12px;
       color: #888;
+      padding-bottom: 40px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="ignite.png" alt="Ignitemare Banner">
-    <h1>Ignitemare</h1>
-  </header>
+
+  <div class="banner">
+    <img src="ignite.png" alt="Channel Banner">
+  </div>
+
+  <div class="channel-info">
+    <img src="ignite.png" alt="Profile Picture" class="profile-pic">
+    <div class="channel-meta">
+      <h1>Ignitemare</h1>
+      <div class="subtext">@ignitemare1680 • 2025</div>
+    </div>
+  </div>
 
   <section class="links">
     <a class="link-card" href="https://www.youtube.com/@ignitemare1680" target="_blank">YouTube</a>
+    <a class="link-card" href="#" target="_blank">Subscribe</a>
+    <a class="link-card" href="#" target="_blank">About</a>
   </section>
 
   <footer>
-    &copy; 2025 Ignitemare. All rights reserved.
+    &copy; 2025 Ignitemare. This is a fan-made layout inspired by YouTube.
   </footer>
+
 </body>
 </html>
