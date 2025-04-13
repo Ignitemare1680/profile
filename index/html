@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ignitemare</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px 10px;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      border: 4px solid #ff4d00;
+      box-shadow: 0 0 20px #ff4d00;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-top: 20px;
+      color: #ff4d00;
+    }
+    .links {
+      margin-top: 30px;
+    }
+    .link-card {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background: #1a1a1a;
+      border: 2px solid #ff4d00;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 1.2em;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .link-card:hover {
+      background: #ff4d00;
+      color: #0f0f0f;
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ignite.png" alt="Ignitemare Logo">
+    <h1>Ignitemare</h1>
+  </header>
+
+  <section class="links">
+    <a class="link-card" href="https://www.youtube.com/@ignitemare1680" target="_blank">YouTube</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Ignitemare. All rights reserved.
+  </footer>
+</body>
+</html>
