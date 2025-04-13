@@ -7,31 +7,31 @@
   <style>
     body {
       margin: 0;
-      font-family: Roboto, Arial, sans-serif;
-      background: #0f0f0f;
+      font-family: "Roboto", Arial, sans-serif;
+      background-color: #0f0f0f;
       color: #f1f1f1;
     }
 
     .banner {
       position: relative;
       width: 100%;
-      aspect-ratio: 16/9;
+      max-height: 280px;
       overflow: hidden;
-      background-color: #000;
+      border-radius: 20px;
+      margin-bottom: 60px;
     }
 
     .banner img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+      height: auto;
       display: block;
     }
 
-    .channel-info-wrapper {
+    .channel-header {
       display: flex;
       align-items: center;
-      padding: 20px 5%;
-      margin-top: -60px;
+      padding: 0 5%;
+      margin-top: -70px;
     }
 
     .profile-pic {
@@ -39,23 +39,22 @@
       height: 96px;
       border-radius: 50%;
       border: 4px solid #0f0f0f;
-      background: #0f0f0f;
+      object-fit: cover;
     }
 
-    .channel-meta {
+    .channel-details {
       margin-left: 16px;
     }
 
-    .channel-meta h1 {
-      font-size: 20px;
+    .channel-details h1 {
+      font-size: 24px;
       margin: 0;
       color: #fff;
     }
 
-    .channel-meta .subtext {
+    .channel-details .handle {
       font-size: 14px;
       color: #aaa;
-      margin-top: 2px;
     }
 
     .subscribe-btn {
@@ -67,42 +66,30 @@
       padding: 8px 20px;
       font-size: 14px;
       font-weight: bold;
-      cursor: pointer;
       text-decoration: none;
+      cursor: pointer;
       transition: background 0.3s ease;
     }
 
     .subscribe-btn:hover {
       background: #e60000;
     }
-
-    footer {
-      text-align: center;
-      margin-top: 60px;
-      color: #777;
-      font-size: 12px;
-      padding: 20px;
-    }
   </style>
 </head>
 <body>
 
   <div class="banner">
-    <img src="image.png" alt="Channel Banner">
+    <img src="image.png" alt="Channel Banner" />
   </div>
 
-  <div class="channel-info-wrapper">
-    <img src="pfp.png" alt="Profile Picture" class="profile-pic">
-    <div class="channel-meta">
+  <div class="channel-header">
+    <img src="image.png" alt="Profile Picture" class="profile-pic" />
+    <div class="channel-details">
       <h1>Ignitemare</h1>
-      <div class="subtext">@ignitemare1680 • 2025</div>
+      <div class="handle">@ignitemare1680 • 2025</div>
     </div>
     <a class="subscribe-btn" href="https://www.youtube.com/@Ignitemare1680?sub_confirmation=1" target="_blank">Subscribe</a>
   </div>
-
-  <footer>
-    &copy; 2025 Ignitemare. Inspired by the YouTube layout.
-  </footer>
 
 </body>
 </html>
